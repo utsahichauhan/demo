@@ -6,7 +6,8 @@ import { createRoot } from 'react-dom/client'
 // import StateExample from './lec0201/stateexa1'
 // import TextToggle from './excercise1/btn'
 // import ApiTesting from './lec1601/useeffect'
-import InterestCalculator from './excercise1/interest'
+// import InterestCalculator from './excercise1/interest'
+import Reducer1 from './lec1002/usereducer'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +15,6 @@ createRoot(document.getElementById('root')).render(
   <div>
     {/* <Mycomponent/> */}
     {/* <ReqCancel/> */}
-    <InterestCalculator/>
+    <Reducer1/>
     </div>
 )
